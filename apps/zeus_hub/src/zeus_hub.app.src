@@ -1,0 +1,8 @@
+{application, zeus_hub, [
+    {description, "Zeus Hub"},
+    {vsn, "1.0.0"},
+    {modules, []},
+    {registered, []},
+    {applications, [sasl, zeus]},
+    {mod, {zeus_hub_app, []}}
+]}.

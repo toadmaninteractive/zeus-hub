@@ -1,0 +1,14 @@
+apps_dir: !!python/unicode 'apps'
+compiler_options: !!python/unicode '{d,maps_support}'
+consoles:
+  !!python/unicode 'hub': {command: !!python/unicode 'zeus_hub:start().', cookie: !!python/unicode '123',
+    params: !!python/unicode '-config etc/app.config', sname: !!python/unicode 'zeus_hub'}
+  !!python/unicode 'test': {command: !!python/unicode '', cookie: !!python/unicode '123',
+    params: !!python/unicode '-config etc/app.config', sname: !!python/unicode 'zeus_test'}
+deps_dir: !!python/unicode 'deps'
+erlang_project_type: Multiple apps
+excluded_dirs: []
+excluded_paths: []
+project_name: !!python/unicode 'zeus_hub'
+project_type: erlang
+work_dir: !!python/unicode ''

@@ -1,0 +1,12 @@
+.docker*
+.git*
+#etc
+log
+plt
+utils
+var
+Dockerfile
+README.md
+rebar.cmd
+winbuild.cmd
+zeus_hub.noiseide
